@@ -24,6 +24,9 @@ export default {
       md:'1060px',
       lg:'1200px',
       xl:'1700px'
+    },
+    gridTemplateColumns:{
+      'footer': 'repeat(auto-fit, minmax(0, 1fr))'
     }
   },
   plugins: [],
